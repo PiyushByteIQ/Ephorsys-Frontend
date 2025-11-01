@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     };
 
     try {
-        const response = await fetch("http://localhost:8090/addUser", {
+        const response = await fetch("https://ephorsys-backend.onrender.com/addUser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
